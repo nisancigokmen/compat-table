@@ -8,6 +8,7 @@ ECMAScript compatibility tables
 Editing the tests
 -----------------
 
+
 Edit the `data-es5.js`, `data-es6.js`, `data-esnext.js`, or `data-non-standard.js` files to adjust the tests and their recorded browser results. Run `node build.js` to build the HTML files from these JavaScript sources.
 
 The ES6 tests themselves should be written in pure ES3, *except* for the sole ES6 feature being tested (as well as any ES5 features strictly required to use the ES6 feature). ES Next tests may use any ES5 features that they wish, and only the ES6 features strictly required to use the ES Next feature.
@@ -18,6 +19,7 @@ Most tests have a `significance` rating, which affects how a platform's total su
 
 In order to test compilers
 -----------------
+
 
 Run `npm install` to install the compilers under test (and remember to `npm update` them frequently).
 Then run `node build.js compilers` to create compiler test pages under `es6/compilers`. Currently only the ES6 tests produce compiler test pages.
