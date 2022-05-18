@@ -35,3 +35,5 @@ After installing dependencies using `npm install`, first compile a fresh ES6 HTM
 Then, run `node .`, where `node` is the executable you wish to test, along with any desired flags (such as `--es-staging`). The results should be printed in colour in stdout: <span style='background:black;color:forestgreen'>green</span> results indicate correct support, <span style='background:black;color:aqua'>cyan</span> results indicate support that incorrectly requires strict mode, and <span style='background:black;color:crimson'>red</span> indicates no support.
 
 Note that this script is currently hard-coded to only display ES6 results.
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2318f9ee&size=22&lines=Thanks+for+visiting)](https://git.io/typing-svg)
